@@ -1,0 +1,9 @@
+- Usar statsmodels.formula.api para usar ols y ahí definir el modelo, recordar que se pueden 
+hacer transformaciones de las variables para definir y - x1 + x2 etc
+- la ventaja de lo anterior es que tiene resumen y prueba anova
+- si sale un grado de libertad en la tabla anova es porque es cuantitativa y solo se incluye 
+como una única variable predictora en el modelo
+- recordar que se puede usar .corr() a un df para sacar correlaciones, también usar herramientas 
+gráficas
+- hacer la parte de verificación de los 6 errores comunes: atípicos, puntos lejanos, 
+heteroscedasticidad, relación no lineal, multicolinealidad (prueba VIF), no me acuerdo el otro jaja
